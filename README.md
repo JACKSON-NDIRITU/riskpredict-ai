@@ -73,7 +73,7 @@ Tech Stack
 
 How to Run the Project Locally
 
-1️. Clone the repository
+1. Clone the repository
 bash
 git clone https://github.com/JACKSON-NDIRITU/riskpredict-ai.git
 cd riskpredict-ai
