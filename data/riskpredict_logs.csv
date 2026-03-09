@@ -1,0 +1,901 @@
+﻿timestamp,user,event,ip_address,is_privileged_user,keyword_match_count,has_ip,is_external_ip,indicator_count,risk_score,label
+2025-07-23 04:28:57,alice,Suspicious traffic from external source,45.33.32.156,False,1,True,True,3,0.75,HIGH
+2025-12-24 14:05:00,isabel,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-07-31 21:32:16,admin,Escalation to root attempted from external host,46.101.60.130,True,1,True,True,4,1.0,HIGH
+2025-06-26 07:25:48,nathan,Printer job submitted: invoice_627.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-15 16:32:25,isabel,Malicious login attempt from external source,185.220.101.45,False,2,True,True,4,1.0,HIGH
+2025-05-07 17:21:15,svc_api,Log rotation completed: archived 193 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-10 14:31:36,james,Malicious packet received from external address,185.220.101.45,False,1,True,True,3,0.75,HIGH
+2025-12-31 12:26:19,nathan,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-17 07:12:34,nathan,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-07 10:03:12,karen,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-08 14:40:46,karen,Unauthorized access attempt from external host,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-06-23 01:31:34,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-03-05 04:31:14,frank,Printer job submitted: invoice_272.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-06 18:38:52,frank,Malicious packet received from external address,172.99.10.44,False,1,True,True,3,0.75,HIGH
+2025-12-15 12:41:57,bob,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-13 23:16:13,frank,Unauthorized access attempt from external host,31.13.64.35,False,1,True,True,3,0.75,HIGH
+2025-02-22 11:01:39,admin,Privilege escalation via sudo from external node,194.165.16.11,True,3,True,True,6,1.0,HIGH
+2025-07-20 17:02:51,grace,Login attempt from internal machine,127.0.0.1,False,1,True,False,2,0.5,MEDIUM
+2025-10-24 06:46:10,karen,User logged out after 106 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-04 04:44:52,james,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-07 03:40:45,mary,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-06 05:05:04,svc_monitor,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-06 06:24:55,emma,Denied connection from external node,198.51.100.22,False,1,True,True,3,0.75,HIGH
+2025-11-12 21:44:25,isabel,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-25 18:36:34,james,Failed login from internal workstation,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-12-15 10:25:56,james,File transfer initiated from internal machine,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-09-10 12:12:52,root,Escalation to root attempted from external host,104.21.14.101,True,1,True,True,4,1.0,HIGH
+2025-09-02 15:53:23,henry,Remote desktop session from internal host,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-09-12 04:02:47,alice,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-21 21:07:06,james,Report exported: sales_data_7.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-03 23:54:43,isabel,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-31 08:18:45,grace,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-16 17:00:57,admin,Admin session attempted from external address: denied,185.220.101.45,True,1,True,True,3,0.75,HIGH
+2025-02-19 16:25:30,isabel,Unauthorized access attempt from external host,66.249.64.20,False,1,True,True,3,0.75,HIGH
+2025-12-19 23:03:41,james,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-10 01:33:35,karen,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-25 18:12:18,james,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-03-17 01:40:42,james,Session started on workstation WS-40,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-03 11:00:01,carol,Document created: project_plan_3.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-23 17:54:33,root,Root session failed from external IP: flagged by IDS,203.0.113.99,True,0,True,True,3,0.75,HIGH
+2025-07-16 21:50:28,emma,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-09 09:59:05,svc_api,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-03-23 22:17:09,james,Denied request from internal host,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-05-18 11:58:35,frank,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-08-20 21:20:10,david,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-25 18:39:40,isabel,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-01-17 02:37:33,alice,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-13 14:25:44,karen,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-08 01:05:33,alice,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-02 14:16:21,henry,Denied request from internal host,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-10-05 01:59:41,james,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-17 21:54:05,carol,File transfer initiated from internal machine,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-01-17 11:54:08,svc_backup,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-27 22:24:50,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-09-08 22:37:52,james,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-12 08:10:18,svc_db,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-04 16:51:10,liam,Unauthorized breach attempt from external address,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-07-29 20:16:36,henry,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-04 09:02:39,frank,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-18 08:28:36,root,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-08-22 20:24:23,svc_db,Service ping received from internal node,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-12-25 11:42:47,emma,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-08 22:55:11,alice,Access granted to project folder: /dev/sprint-5/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-13 16:43:54,alice,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-22 23:01:30,root,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-03-03 02:10:39,karen,Unauthorized breach attempt from external address,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-01-28 11:05:49,james,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-28 03:43:25,alice,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-04-13 16:41:23,carol,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-12-29 19:08:54,liam,Failed login from internal workstation,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-09-15 05:06:45,isabel,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-04 06:13:44,mary,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-10-18 13:25:35,carol,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-04 14:17:44,emma,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-09-03 04:38:11,mary,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-11-21 14:15:51,root,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-12-29 15:57:58,frank,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-21 13:39:30,root,Admin session attempted from external address: denied,52.86.16.25,True,1,True,True,3,0.75,HIGH
+2025-05-02 20:47:42,mary,Software update installed: patch KB75974,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-03 02:15:19,svc_api,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-07 13:17:39,carol,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-11-16 06:24:29,nathan,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-22 23:39:26,nathan,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-09 21:54:29,nathan,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-30 17:31:15,isabel,Software update installed: patch KB68583,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-13 08:33:43,admin,Root session failed from external IP: flagged by IDS,91.108.4.200,True,0,True,True,3,0.75,HIGH
+2025-09-12 13:25:30,james,File uploaded to shared drive: presentation_19.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-05 06:05:55,emma,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-01-23 04:07:52,bob,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-23 16:22:00,carol,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-09-27 01:06:22,root,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-12-12 20:14:23,carol,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-11-19 18:07:59,bob,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-02-06 16:56:26,karen,Access granted to project folder: /dev/sprint-16/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-21 02:16:02,james,New device registered: laptop-103,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-26 18:48:26,isabel,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-04-26 17:09:18,mary,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-12 06:13:37,grace,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-23 22:23:11,james,Login attempt from internal machine,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-10-31 22:57:15,david,Document created: project_plan_41.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-05 14:07:48,carol,Suspicious attack detected from external host,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-07-28 01:54:52,henry,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-29 02:35:12,svc_db,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-02-23 11:08:10,isabel,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-03-03 01:32:31,alice,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-08 09:57:15,isabel,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-08 13:22:19,karen,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-06-28 07:32:51,root,Root failed to authenticate from external host,52.86.16.25,True,0,True,True,3,0.75,HIGH
+2025-02-20 03:57:29,isabel,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-06 13:15:08,svc_monitor,Log rotation completed: archived 14 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-16 22:53:02,mary,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-09-11 12:30:27,grace,File transfer initiated from internal machine,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-05-21 00:06:34,liam,Attack pattern: multiple failed attempts from external host,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-01-13 21:55:05,david,Report exported: sales_data_20.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-31 03:53:48,bob,Suspicious attack detected from external host,185.220.101.45,False,2,True,True,4,1.0,HIGH
+2025-09-25 17:30:10,nathan,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-10-28 06:02:42,david,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-11 02:31:04,nathan,Session started on workstation WS-34,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-02 16:01:53,isabel,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-16 08:23:35,karen,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-03-29 17:19:12,frank,Suspicious traffic from external source,91.108.4.200,False,1,True,True,3,0.75,HIGH
+2025-01-02 07:02:44,admin,Root session failed from external IP: flagged by IDS,194.165.16.11,True,0,True,True,3,0.75,HIGH
+2025-01-29 16:10:42,isabel,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-19 15:12:22,james,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-03-05 08:48:09,karen,Login attempt recorded from workstation WS-71,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-04 17:17:29,svc_db,Service ping received from internal node,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-12-23 06:46:47,carol,Denied connection from external node,203.0.113.99,False,1,True,True,3,0.75,HIGH
+2025-09-14 13:59:24,liam,Remote desktop session from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-12-17 12:45:20,nathan,Attack pattern: multiple failed attempts from external host,198.51.100.22,False,2,True,True,4,1.0,HIGH
+2025-01-24 10:05:16,svc_db,Service ping received from internal node,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-01-21 10:08:04,svc_db,API health check passed: response time 44ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-20 19:29:43,alice,Software update installed: patch KB42693,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-17 08:44:22,svc_monitor,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-11 07:14:31,liam,Denied request from internal host,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-09-23 02:01:26,nathan,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-27 19:53:36,root,Unauthorized admin access from external node,45.33.32.156,True,1,True,True,4,1.0,HIGH
+2025-10-30 03:35:38,nathan,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-22 07:42:06,henry,Access granted to project folder: /dev/sprint-13/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-18 19:15:31,emma,Report exported: sales_data_9.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-14 15:22:03,james,Login attempt from internal machine,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-11-02 20:26:36,david,Connection from workstation to internal service,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-04-09 10:05:54,david,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-16 01:52:47,mary,Connection from workstation to internal service,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-04-17 03:31:44,alice,Unauthorized breach attempt from external address,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-01-07 22:38:40,mary,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-06 17:40:58,alice,Suspicious traffic noted from internal device,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-10-10 19:22:38,svc_deploy,Log rotation completed: archived 43 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-24 21:57:55,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-18 00:45:40,bob,Login attempt from internal machine,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-01-24 04:59:24,nathan,File transfer initiated from internal machine,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-04-08 09:22:14,henry,Connection from workstation to internal service,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-12-30 07:45:01,frank,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-12-31 18:32:43,liam,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-25 17:24:53,carol,Suspicious traffic noted from internal device,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-09-21 23:10:00,emma,Failed login from internal workstation,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-11-28 22:49:01,nathan,Malicious packet received from external address,104.21.14.101,False,1,True,True,3,0.75,HIGH
+2025-11-05 00:25:45,isabel,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-05-16 19:53:10,bob,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-09-11 20:14:59,mary,Denied connection from external node,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-03-11 06:43:40,isabel,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-10-26 21:27:33,svc_deploy,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-06 11:57:38,isabel,Denied connection from external node,46.101.60.130,False,1,True,True,3,0.75,HIGH
+2025-05-11 07:14:34,alice,Malicious login attempt from external source,194.165.16.11,False,2,True,True,4,1.0,HIGH
+2025-10-29 08:38:02,grace,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-03-30 10:36:24,henry,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-13 20:16:34,alice,Suspicious traffic noted from internal device,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-07-31 02:29:06,liam,Software update installed: patch KB60279,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-06 13:58:27,nathan,Malicious packet received from external address,45.33.32.156,False,1,True,True,3,0.75,HIGH
+2025-01-05 06:23:01,alice,Failed login from internal workstation,127.0.0.1,False,1,True,False,2,0.5,MEDIUM
+2025-09-29 02:56:53,liam,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-07-15 03:47:17,emma,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-11-12 20:13:43,henry,Login attempt from internal machine,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-09-18 03:08:38,bob,User logged out after 118 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-10 10:39:21,svc_db,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-01 18:56:31,bob,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-02-23 16:46:31,carol,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-29 05:19:59,svc_db,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-16 07:33:23,isabel,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-03 11:02:24,bob,Access granted to project folder: /dev/sprint-14/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-28 03:25:55,admin,Root session failed from external IP: flagged by IDS,172.99.10.44,True,0,True,True,3,0.75,HIGH
+2025-09-02 16:01:03,svc_monitor,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-02 19:47:20,svc_deploy,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-03 14:45:14,karen,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-06 05:41:57,frank,Unauthorized access attempt from external host,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-08-01 02:29:19,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-06-14 18:48:23,isabel,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-17 02:24:05,karen,New device registered: laptop-628,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-01 08:32:19,admin,Unauthorized admin access from external node,172.99.10.44,True,1,True,True,4,1.0,HIGH
+2025-03-30 23:59:21,henry,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-22 22:39:57,frank,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-11-07 12:00:59,admin,Privilege escalation via sudo from external node,66.249.64.20,True,3,True,True,6,1.0,HIGH
+2025-10-18 05:30:54,grace,Suspicious attack detected from external host,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-08-15 17:27:31,frank,Denied request from internal host,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-06-09 17:16:15,mary,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-16 18:55:07,root,Escalation to root attempted from external host,185.220.101.45,True,1,True,True,4,1.0,HIGH
+2025-11-20 20:37:52,root,Root session failed from external IP: flagged by IDS,91.108.4.200,True,0,True,True,3,0.75,HIGH
+2025-09-03 07:49:49,frank,Software update installed: patch KB99279,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-11 05:43:03,nathan,Suspicious attack detected from external host,31.13.64.35,False,2,True,True,4,1.0,HIGH
+2025-06-19 18:47:16,mary,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-23 19:37:52,bob,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-01-03 13:44:24,admin,Root session failed from external IP: flagged by IDS,198.51.100.22,True,0,True,True,3,0.75,HIGH
+2025-05-18 02:09:31,mary,Denied connection from external node,203.0.113.99,False,1,True,True,3,0.75,HIGH
+2025-02-06 11:18:28,james,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-21 01:41:05,nathan,Attack signature matched on traffic from external host,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-11-10 16:01:38,grace,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-07 20:56:31,james,Document created: project_plan_15.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-14 14:52:23,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-25 08:11:45,svc_api,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-11 13:37:35,mary,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-06-03 13:03:13,alice,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-01-13 00:45:50,isabel,Login attempt from internal machine,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-11-13 02:05:23,emma,Report exported: sales_data_12.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-16 22:08:52,james,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-19 14:54:12,bob,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-15 12:15:43,henry,Software update installed: patch KB46053,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-03 15:55:03,carol,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-09-26 00:46:48,david,Remote desktop session from internal host,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-08-12 20:39:19,carol,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-13 17:22:00,admin,Root failed to authenticate from external host,66.249.64.20,True,0,True,True,3,0.75,HIGH
+2025-07-01 07:42:33,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-22 03:43:08,nathan,Denied request from internal host,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-10-24 06:46:38,svc_api,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-09 09:04:11,grace,Suspicious traffic from external source,31.13.64.35,False,1,True,True,3,0.75,HIGH
+2025-08-06 13:06:42,karen,User logged out after 15 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-24 06:05:08,nathan,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-24 18:25:26,alice,Attack signature matched on traffic from external host,66.249.64.20,False,1,True,True,3,0.75,HIGH
+2025-09-14 10:54:55,grace,Denied connection from external node,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-01-03 16:30:55,mary,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-26 00:16:51,nathan,Remote desktop session from internal host,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-07-06 15:00:24,nathan,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-12-27 23:25:04,grace,Login attempt recorded from workstation WS-44,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-12 18:34:49,karen,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-26 05:08:37,svc_monitor,Service ping received from internal node,10.10.1.100,False,0,True,False,1,0.25,MEDIUM
+2025-01-16 03:33:23,james,Remote desktop session from internal host,127.0.0.1,False,0,True,False,1,0.25,MEDIUM
+2025-10-18 02:45:55,david,Unauthorized access attempt from external host,185.220.101.45,False,1,True,True,3,0.75,HIGH
+2025-09-16 12:53:40,david,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-03-06 09:58:50,mary,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-13 04:14:08,mary,File transfer initiated from internal machine,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-01-22 02:19:42,james,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-02-25 00:44:39,henry,Suspicious traffic from external source,66.249.64.20,False,1,True,True,3,0.75,HIGH
+2025-03-12 17:26:07,svc_db,API health check passed: response time 27ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-24 20:37:27,emma,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-31 14:14:46,svc_api,Service ping received from internal node,10.10.1.100,False,0,True,False,1,0.25,MEDIUM
+2025-03-30 14:32:53,henry,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-23 09:13:58,carol,Report exported: sales_data_12.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-03 11:17:28,nathan,Printer job submitted: invoice_181.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-16 03:11:08,bob,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-31 22:38:52,bob,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-24 19:39:08,james,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-18 06:57:49,root,Admin session attempted from external address: denied,172.99.10.44,True,1,True,True,3,0.75,HIGH
+2025-03-09 20:32:54,emma,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-10-22 02:10:26,carol,Suspicious traffic from external source,194.165.16.11,False,1,True,True,3,0.75,HIGH
+2025-01-30 05:31:58,root,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-05-01 10:58:07,admin,Escalation to root attempted from external host,185.220.101.45,True,1,True,True,4,1.0,HIGH
+2025-04-22 12:54:36,liam,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-20 23:14:57,alice,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-05-18 22:31:18,liam,Denied connection from external node,104.21.14.101,False,1,True,True,3,0.75,HIGH
+2025-05-12 01:29:32,henry,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-11 15:15:43,root,Root session failed from external IP: flagged by IDS,194.165.16.11,True,0,True,True,3,0.75,HIGH
+2025-07-07 21:52:23,liam,Malicious login attempt from external source,66.249.64.20,False,2,True,True,4,1.0,HIGH
+2025-10-21 15:39:35,david,Denied request from internal host,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-03-21 00:55:37,isabel,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-18 02:13:27,root,Escalation to root attempted from external host,52.86.16.25,True,1,True,True,4,1.0,HIGH
+2025-04-26 22:06:02,grace,Failed login from internal workstation,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-04-08 19:15:35,grace,Denied connection from external node,194.165.16.11,False,1,True,True,3,0.75,HIGH
+2025-12-04 03:48:44,karen,Access granted to project folder: /dev/sprint-2/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-24 02:18:04,root,Root session failed from external IP: flagged by IDS,91.108.4.200,True,0,True,True,3,0.75,HIGH
+2025-05-08 02:12:42,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-05 17:03:27,svc_deploy,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-09 00:12:27,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-10-25 08:34:28,nathan,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-06 13:30:10,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-27 08:45:41,bob,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-16 19:30:45,nathan,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-06-16 19:53:55,bob,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-30 16:47:56,henry,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-08-05 21:12:00,svc_db,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-03 17:03:58,svc_db,API health check passed: response time 27ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-18 15:05:39,alice,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-24 19:08:38,svc_db,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-22 04:06:09,henry,File uploaded to shared drive: presentation_27.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-23 03:03:19,nathan,Unauthorized access attempt from external host,203.0.113.99,False,1,True,True,3,0.75,HIGH
+2025-10-31 12:47:49,root,Privilege escalation via sudo from external node,198.51.100.22,True,3,True,True,6,1.0,HIGH
+2025-07-25 03:27:35,alice,Attack signature matched on traffic from external host,46.101.60.130,False,1,True,True,3,0.75,HIGH
+2025-07-03 17:56:49,svc_deploy,Connection refused from internal node,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-04-03 04:38:27,bob,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-12 02:04:24,karen,New device registered: laptop-681,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-16 12:34:39,root,Admin session attempted from external address: denied,172.99.10.44,True,1,True,True,3,0.75,HIGH
+2025-09-26 04:56:02,henry,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-15 11:31:01,frank,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-09-30 19:51:25,carol,Attack signature matched on traffic from external host,172.99.10.44,False,1,True,True,3,0.75,HIGH
+2025-10-30 02:02:04,liam,Unauthorized access attempt from external host,66.249.64.20,False,1,True,True,3,0.75,HIGH
+2025-05-09 21:31:20,emma,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-10 18:12:15,mary,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-13 00:37:30,nathan,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-07-20 19:55:43,karen,Malicious packet received from external address,46.101.60.130,False,1,True,True,3,0.75,HIGH
+2025-02-08 06:20:56,alice,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-12-15 08:31:25,emma,Denied request from internal host,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-03-19 09:57:20,david,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-06 13:47:30,liam,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-20 15:05:40,alice,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-11-01 15:59:27,grace,Document created: project_plan_15.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-08 04:28:45,svc_monitor,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-14 21:19:01,mary,Connection from workstation to internal service,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-08-14 21:10:56,carol,Network packet received from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-06-05 21:15:32,root,Privilege escalation via sudo from external node,46.101.60.130,True,3,True,True,6,1.0,HIGH
+2025-05-13 02:18:35,frank,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-07 19:16:18,mary,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-12-17 13:04:12,emma,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-27 11:55:24,karen,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-04 12:48:53,mary,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-23 21:41:42,grace,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-23 21:31:34,david,Malicious login attempt from external source,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-07-15 02:07:22,isabel,Login attempt recorded from workstation WS-33,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-18 22:12:15,alice,Software update installed: patch KB34204,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-11 20:47:56,nathan,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-12 11:36:37,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-07-24 23:33:28,henry,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-03 00:47:30,bob,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-20 23:50:08,karen,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-11 14:53:27,mary,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-12 17:18:26,mary,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-09-03 19:37:07,bob,Session started on workstation WS-24,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-28 03:01:27,root,Root session failed from external IP: flagged by IDS,104.21.14.101,True,0,True,True,3,0.75,HIGH
+2025-11-19 09:59:44,mary,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-03 15:58:36,admin,Admin session attempted from external address: denied,46.101.60.130,True,1,True,True,3,0.75,HIGH
+2025-05-12 11:01:20,karen,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-17 18:27:43,mary,Suspicious traffic from external source,91.108.4.200,False,1,True,True,3,0.75,HIGH
+2025-10-05 00:02:22,david,Denied request from internal host,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-06-29 20:34:46,nathan,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-13 11:55:59,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-06-16 09:46:34,karen,Login attempt recorded from workstation WS-66,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-22 18:18:33,liam,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-07-02 14:59:03,nathan,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-10 20:15:27,nathan,Suspicious attack detected from external host,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-07-22 02:03:29,liam,Login attempt from internal machine,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-05-24 22:10:05,carol,File uploaded to shared drive: presentation_2.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-21 22:41:07,karen,User logged out after 116 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-07 23:18:54,karen,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-04 11:01:07,karen,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-04-17 11:34:31,david,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-26 19:22:09,nathan,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-19 11:09:28,frank,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-03-24 00:39:24,emma,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-07-24 18:55:14,nathan,Report exported: sales_data_4.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-23 16:42:35,karen,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-07-03 18:50:39,alice,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-03-26 01:58:17,bob,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-27 01:40:16,alice,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-01-10 05:25:47,emma,Unauthorized access attempt from external host,203.0.113.99,False,1,True,True,3,0.75,HIGH
+2025-07-12 01:27:18,henry,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-21 22:56:11,carol,Attack pattern: multiple failed attempts from external host,198.51.100.22,False,2,True,True,4,1.0,HIGH
+2025-07-22 12:07:58,david,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-10 00:09:59,bob,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-01 02:25:06,henry,Unauthorized access attempt from external host,198.51.100.22,False,1,True,True,3,0.75,HIGH
+2025-10-16 20:07:23,nathan,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-15 00:35:20,henry,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-08 02:46:35,emma,Attack pattern: multiple failed attempts from external host,91.108.4.200,False,2,True,True,4,1.0,HIGH
+2025-12-29 20:59:47,frank,Malicious login attempt from external source,91.108.4.200,False,2,True,True,4,1.0,HIGH
+2025-06-14 13:56:04,grace,Malicious packet received from external address,198.51.100.22,False,1,True,True,3,0.75,HIGH
+2025-07-11 18:20:39,alice,Suspicious traffic noted from internal device,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-09-14 15:51:17,henry,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-17 16:20:43,carol,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-15 01:30:13,isabel,Document created: project_plan_50.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-25 18:27:41,nathan,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-05 16:42:28,david,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-02 06:51:10,david,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-21 02:08:37,grace,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-02 14:42:09,grace,Suspicious traffic from external source,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-12-28 03:36:21,karen,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-17 20:55:35,svc_api,Log rotation completed: archived 53 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-16 08:03:46,alice,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-26 11:33:20,frank,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-07-18 18:10:39,henry,Software update installed: patch KB65678,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-24 17:16:31,root,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-07-11 05:37:32,alice,Suspicious traffic noted from internal device,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-06-21 13:51:33,henry,Network packet received from internal host,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-03-29 09:02:16,admin,Unauthorized admin access from external node,172.99.10.44,True,1,True,True,4,1.0,HIGH
+2025-02-05 01:04:04,carol,File uploaded to shared drive: presentation_29.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-20 20:23:34,isabel,Network packet received from internal host,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-12-08 08:07:32,svc_monitor,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-22 05:02:32,david,Denied connection from external node,45.33.32.156,False,1,True,True,3,0.75,HIGH
+2025-12-30 22:03:06,bob,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-07-03 13:01:23,liam,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-04 02:45:26,admin,Privilege escalation via sudo from external node,185.220.101.45,True,3,True,True,6,1.0,HIGH
+2025-11-24 02:02:59,liam,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-25 05:32:44,liam,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-12-26 04:53:38,david,Attack signature matched on traffic from external host,45.33.32.156,False,1,True,True,3,0.75,HIGH
+2025-04-29 21:26:39,james,Unauthorized breach attempt from external address,45.33.32.156,False,2,True,True,4,1.0,HIGH
+2025-11-21 21:14:12,svc_db,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-05 16:29:57,svc_api,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-03 17:28:29,karen,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-31 09:41:14,henry,Denied connection from external node,194.165.16.11,False,1,True,True,3,0.75,HIGH
+2025-12-08 22:18:48,bob,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-06 13:46:52,carol,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-11-01 03:25:02,frank,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-18 02:09:48,bob,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-29 13:35:39,carol,Attack signature matched on traffic from external host,104.21.14.101,False,1,True,True,3,0.75,HIGH
+2025-08-29 01:50:11,david,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-21 05:25:06,isabel,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-15 00:17:51,karen,Connection from workstation to internal service,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-09-05 10:58:54,david,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-19 18:07:05,grace,User logged out after 28 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-18 05:03:56,frank,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-12 09:23:41,emma,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-29 15:14:36,james,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-26 17:34:36,bob,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-17 05:35:32,karen,Remote desktop session from internal host,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-07-26 23:45:41,carol,Attack signature matched on traffic from external host,185.220.101.45,False,1,True,True,3,0.75,HIGH
+2025-06-26 04:33:00,bob,Malicious login attempt from external source,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-08-01 13:50:07,david,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-02-28 02:06:13,emma,Suspicious traffic noted from internal device,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-10-12 20:50:20,karen,Network packet received from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-01-27 17:57:13,david,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-09-05 13:32:33,emma,Connection from workstation to internal service,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-03-17 01:07:24,mary,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-24 17:55:51,isabel,Connection from workstation to internal service,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-11-13 09:17:38,david,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-30 10:17:27,frank,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-11 05:24:44,grace,Attack signature matched on traffic from external host,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-03-01 01:30:28,svc_api,API health check passed: response time 82ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-27 03:28:44,james,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-24 18:58:19,emma,User logged out after 108 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-11 00:23:33,bob,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-22 17:33:59,mary,Malicious packet received from external address,45.33.32.156,False,1,True,True,3,0.75,HIGH
+2025-09-21 06:36:51,root,Unauthorized admin access from external node,172.99.10.44,True,1,True,True,4,1.0,HIGH
+2025-12-14 09:53:07,liam,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-24 12:20:41,liam,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-16 17:11:38,liam,Malicious packet received from external address,66.249.64.20,False,1,True,True,3,0.75,HIGH
+2025-07-02 23:31:58,isabel,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-29 18:44:07,nathan,Network packet received from internal host,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-07-25 14:56:53,nathan,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-05 08:11:15,david,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-18 14:03:26,svc_deploy,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-02-14 11:36:29,liam,Software update installed: patch KB53106,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-03 09:19:17,isabel,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-06 02:19:39,nathan,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-02 16:05:03,karen,Unauthorized breach attempt from external address,185.220.101.45,False,2,True,True,4,1.0,HIGH
+2025-01-01 22:15:41,david,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-14 13:47:51,grace,Attack pattern: multiple failed attempts from external host,91.108.4.200,False,2,True,True,4,1.0,HIGH
+2025-12-11 03:37:31,root,Admin session attempted from external address: denied,45.33.32.156,True,1,True,True,3,0.75,HIGH
+2025-05-31 09:29:42,liam,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-14 06:39:36,henry,Unauthorized breach attempt from external address,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-05-09 19:41:43,david,New device registered: laptop-664,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-13 07:19:58,liam,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-05-06 17:01:18,liam,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-06-19 07:40:35,james,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-06 05:05:29,emma,Unauthorized breach attempt from external address,104.21.14.101,False,2,True,True,4,1.0,HIGH
+2025-12-25 17:12:21,root,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-09-25 12:38:20,svc_api,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-07 13:13:37,grace,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-05-16 08:39:29,grace,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-10 04:56:19,alice,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-11 12:44:47,grace,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-05-03 14:47:22,admin,Root session failed from external IP: flagged by IDS,46.101.60.130,True,0,True,True,3,0.75,HIGH
+2025-08-23 19:03:01,emma,Denied request from internal host,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-08-10 18:06:33,svc_api,API health check passed: response time 150ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-15 15:26:16,emma,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-01 04:19:52,mary,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-12 04:41:19,bob,User logged out after 32 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-05 09:39:28,karen,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-20 20:19:44,svc_monitor,Service ping received from internal node,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-09-09 07:57:27,nathan,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-17 18:47:16,emma,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-13 20:55:48,isabel,Malicious login attempt from external source,45.33.32.156,False,2,True,True,4,1.0,HIGH
+2025-07-26 16:23:54,svc_api,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-14 23:27:35,liam,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-08 13:58:06,liam,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-20 07:53:09,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-24 23:34:44,grace,Document created: project_plan_19.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-01 23:12:07,admin,Admin session attempted from external address: denied,45.33.32.156,True,1,True,True,3,0.75,HIGH
+2025-12-06 04:13:10,mary,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-01 18:27:46,carol,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-26 13:02:50,grace,File uploaded to shared drive: presentation_26.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-26 04:53:35,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-05-22 12:57:13,mary,File transfer initiated from internal machine,10.10.1.100,False,0,True,False,1,0.25,MEDIUM
+2025-07-12 05:17:38,frank,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-11 12:45:31,admin,Unauthorized admin access from external node,46.101.60.130,True,1,True,True,4,1.0,HIGH
+2025-09-07 04:02:01,grace,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-11 01:38:21,david,Suspicious attack detected from external host,52.86.16.25,False,2,True,True,4,1.0,HIGH
+2025-04-06 08:52:02,grace,New device registered: laptop-255,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-26 11:26:25,liam,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-17 08:53:31,emma,New device registered: laptop-643,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-19 09:28:52,frank,Network packet received from internal host,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-05-12 21:37:21,root,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-09-26 02:52:42,james,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-21 16:02:32,grace,Suspicious attack detected from external host,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-10-03 04:53:18,carol,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-12 07:17:00,frank,Login attempt from internal machine,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-10-19 21:27:26,frank,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-09-28 08:54:46,svc_db,Log rotation completed: archived 24 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-22 21:06:12,james,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-04-12 23:02:00,root,Root failed to authenticate from external host,203.0.113.99,True,0,True,True,3,0.75,HIGH
+2025-01-11 07:09:00,alice,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-27 06:47:26,henry,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-02-05 13:14:26,grace,Remote desktop session from internal host,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-12-25 01:03:12,root,Privilege escalation via sudo from external node,91.108.4.200,True,3,True,True,6,1.0,HIGH
+2025-01-17 23:34:52,david,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-01-30 14:36:50,bob,Attack pattern: multiple failed attempts from external host,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-08-02 02:00:03,frank,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-01 03:25:23,liam,Suspicious traffic from external source,31.13.64.35,False,1,True,True,3,0.75,HIGH
+2025-04-21 03:29:44,bob,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-08-28 16:25:34,frank,Session started on workstation WS-72,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-16 07:45:52,james,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-22 19:12:11,bob,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-18 20:18:09,alice,New device registered: laptop-525,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-21 00:37:46,james,New device registered: laptop-664,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-02 00:25:58,frank,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-20 23:38:08,frank,Login attempt from internal machine,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-06-13 02:45:57,karen,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-30 03:14:08,alice,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-06 13:01:14,bob,Failed login from internal workstation,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-09-04 17:08:07,henry,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-01-20 13:42:25,carol,Suspicious traffic noted from internal device,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-03-27 07:34:36,david,Suspicious traffic noted from internal device,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-04-26 13:59:52,mary,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-05 02:10:38,root,Privilege escalation via sudo from external node,91.108.4.200,True,3,True,True,6,1.0,HIGH
+2025-01-05 02:49:18,alice,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-22 05:06:09,bob,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-20 13:30:05,james,Denied request from internal host,127.0.0.1,False,1,True,False,2,0.5,MEDIUM
+2025-10-05 17:17:12,bob,Failed login from internal workstation,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-02-26 17:19:37,emma,Login attempt from internal machine,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-05-29 13:00:58,emma,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-18 18:47:43,liam,Suspicious traffic noted from internal device,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-08-15 19:53:03,svc_deploy,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-20 21:42:58,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-09-09 00:17:38,grace,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-25 08:21:27,frank,Attack pattern: multiple failed attempts from external host,52.86.16.25,False,2,True,True,4,1.0,HIGH
+2025-05-07 06:27:42,henry,Login attempt recorded from workstation WS-68,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-21 20:51:55,david,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-25 16:23:48,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-15 01:57:20,grace,Malicious login attempt from external source,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-03-19 05:02:54,mary,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-07 11:22:28,henry,Unauthorized breach attempt from external address,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-12-15 22:44:49,carol,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-19 23:51:05,nathan,Printer job submitted: invoice_639.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-19 17:32:18,bob,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-26 13:55:11,emma,Network packet received from internal host,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-09-01 02:22:04,david,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-07-10 18:00:50,isabel,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-08-14 00:55:28,emma,File uploaded to shared drive: presentation_10.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-29 15:12:31,frank,Session started on workstation WS-51,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-13 17:19:01,frank,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-14 09:01:05,emma,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-17 02:28:44,bob,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-27 12:25:07,isabel,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-09 18:04:23,svc_deploy,Log rotation completed: archived 121 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-20 11:50:48,svc_api,Log rotation completed: archived 63 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-01 12:55:09,root,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-04-24 17:48:52,admin,Root failed to authenticate from external host,66.249.64.20,True,0,True,True,3,0.75,HIGH
+2025-02-28 19:25:43,james,User logged out after 59 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-10 02:12:27,alice,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-13 13:07:03,admin,Privilege escalation via sudo from external node,172.99.10.44,True,3,True,True,6,1.0,HIGH
+2025-07-03 20:41:38,emma,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-24 10:26:59,alice,Malicious packet received from external address,104.21.14.101,False,1,True,True,3,0.75,HIGH
+2025-08-23 15:04:26,root,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-23 17:49:47,frank,Suspicious traffic from external source,91.108.4.200,False,1,True,True,3,0.75,HIGH
+2025-12-01 21:43:10,admin,Root failed to authenticate from external host,194.165.16.11,True,0,True,True,3,0.75,HIGH
+2025-03-07 02:30:20,liam,Session started on workstation WS-92,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-21 13:27:51,david,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-03-02 17:25:42,emma,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-04-25 15:04:13,nathan,Denied connection from external node,194.165.16.11,False,1,True,True,3,0.75,HIGH
+2025-11-20 15:42:01,svc_api,Connection refused from internal node,10.0.0.12,False,1,True,False,2,0.5,MEDIUM
+2025-03-24 03:02:18,alice,Malicious packet received from external address,194.165.16.11,False,1,True,True,3,0.75,HIGH
+2025-06-09 15:10:00,root,Privilege escalation via sudo from external node,172.99.10.44,True,3,True,True,6,1.0,HIGH
+2025-07-25 08:41:37,nathan,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-29 05:13:36,isabel,Printer job submitted: invoice_611.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-29 22:03:58,frank,File transfer initiated from internal machine,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-01-24 06:32:01,nathan,Access granted to project folder: /dev/sprint-14/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-23 15:24:01,david,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-02 19:09:30,emma,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-24 12:27:53,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-09-03 07:31:24,admin,Unauthorized admin access from external node,66.249.64.20,True,1,True,True,4,1.0,HIGH
+2025-06-24 13:41:00,liam,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-06 14:34:14,admin,Unauthorized admin access from external node,185.220.101.45,True,1,True,True,4,1.0,HIGH
+2025-09-29 13:40:49,isabel,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-04-14 18:21:17,henry,Report exported: sales_data_10.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-03 10:23:29,liam,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-18 06:58:09,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-17 18:23:00,carol,Login attempt recorded from workstation WS-85,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-17 12:21:35,frank,Malicious login attempt from external source,194.165.16.11,False,2,True,True,4,1.0,HIGH
+2025-06-19 18:41:27,karen,Document created: project_plan_43.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-26 13:44:54,liam,Login attempt recorded from workstation WS-93,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-02 09:04:34,nathan,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-11-15 07:54:00,karen,SSH key added to authorised hosts,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-13 21:21:02,bob,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-04-03 22:33:16,alice,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-03 22:12:24,grace,Unauthorized access attempt from external host,31.13.64.35,False,1,True,True,3,0.75,HIGH
+2025-03-17 22:41:28,frank,Printer job submitted: invoice_708.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-18 01:40:12,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-03-19 17:35:01,isabel,Malicious login attempt from external source,198.51.100.22,False,2,True,True,4,1.0,HIGH
+2025-11-26 01:45:10,david,User logged out after 90 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-09 17:55:57,svc_api,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-09 11:07:55,bob,Access granted to project folder: /dev/sprint-18/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-22 00:34:25,karen,Printer job submitted: invoice_637.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-05 10:40:00,root,Root failed to authenticate from external host,104.21.14.101,True,0,True,True,3,0.75,HIGH
+2025-06-23 22:46:36,mary,Login attempt recorded from workstation WS-99,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-28 07:08:48,karen,Remote desktop session from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-02-08 08:18:27,svc_deploy,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-19 07:19:22,emma,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-15 15:35:02,alice,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-08-29 21:18:33,root,Escalation to root attempted from external host,52.86.16.25,True,1,True,True,4,1.0,HIGH
+2025-06-16 01:25:03,liam,Suspicious attack detected from external host,185.220.101.45,False,2,True,True,4,1.0,HIGH
+2025-10-22 07:51:12,emma,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-02-07 20:39:01,carol,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-16 21:20:08,root,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-12-10 15:20:33,karen,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-29 21:10:07,david,Connection from workstation to internal service,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-11-03 14:31:02,liam,Failed login from internal workstation,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-07-09 02:28:13,admin,Privilege escalation via sudo from external node,194.165.16.11,True,3,True,True,6,1.0,HIGH
+2025-01-22 01:35:31,isabel,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-01 10:11:43,david,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-16 19:23:11,alice,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-01 09:11:35,mary,File uploaded to shared drive: presentation_28.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-28 17:30:35,david,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-26 22:03:40,bob,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-07 18:40:15,alice,Malicious packet received from external address,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-09-18 07:08:19,nathan,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-29 21:26:48,root,Root failed to authenticate from external host,104.21.14.101,True,0,True,True,3,0.75,HIGH
+2025-03-19 18:19:20,svc_db,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-02-23 04:10:11,alice,File transfer initiated from internal machine,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-12-12 21:14:38,david,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-08 09:22:07,nathan,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-26 09:29:15,emma,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-04-26 03:31:13,isabel,Malicious login attempt from external source,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-01-11 20:24:25,james,Attack pattern: multiple failed attempts from external host,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-02-20 20:47:18,svc_api,Service ping received from internal node,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-06-02 04:07:39,karen,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-09 08:55:17,emma,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-31 10:26:00,admin,Escalation to root attempted from external host,203.0.113.99,True,1,True,True,4,1.0,HIGH
+2025-10-27 12:35:05,liam,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-13 13:27:29,bob,Remote desktop session from internal host,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-06-04 17:06:28,bob,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-23 14:11:06,mary,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-23 22:11:31,david,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-26 15:42:32,alice,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-09 06:10:56,liam,Printer job submitted: invoice_238.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-17 02:33:47,svc_deploy,Log rotation completed: archived 164 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-20 20:57:53,carol,Suspicious attack detected from external host,52.86.16.25,False,2,True,True,4,1.0,HIGH
+2025-12-21 04:17:22,emma,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-10 19:15:11,henry,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-16 09:01:35,david,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-19 13:30:07,bob,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-12 20:00:02,henry,Report exported: sales_data_13.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-01 13:45:14,alice,Connection from workstation to internal service,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-04-23 20:16:01,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-01-02 11:24:57,james,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-07-16 00:55:18,svc_db,API health check passed: response time 78ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-02 16:39:42,svc_backup,Connection refused from internal node,192.168.1.25,False,1,True,False,2,0.5,MEDIUM
+2025-06-17 00:56:27,isabel,"Attack detected: multiple failed logins, connection refused",0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-07-10 20:19:25,liam,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-19 12:41:46,bob,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-17 16:16:29,carol,File transfer initiated from internal machine,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-05-01 23:24:35,emma,Attack signature matched on traffic from external host,91.108.4.200,False,1,True,True,3,0.75,HIGH
+2025-04-20 16:22:19,carol,Document created: project_plan_36.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-17 11:48:52,carol,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-10-19 20:53:19,liam,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-25 06:14:34,alice,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-12 00:10:15,admin,Privilege escalation via sudo from external node,31.13.64.35,True,3,True,True,6,1.0,HIGH
+2025-12-18 22:51:55,nathan,Report exported: sales_data_4.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-13 14:02:32,karen,Failed login from internal workstation,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-09-24 03:42:12,david,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-08-29 04:10:08,henry,Failed login from internal workstation,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-08-11 01:46:23,nathan,Suspicious sudo usage recorded by monitoring agent,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-06 15:56:32,grace,Attack pattern: multiple failed attempts from external host,104.21.14.101,False,2,True,True,4,1.0,HIGH
+2025-12-23 11:01:59,carol,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-13 10:52:37,james,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-25 22:21:37,grace,Session started on workstation WS-22,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-15 04:57:01,bob,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-04 15:12:50,mary,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-05-28 19:17:08,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-09-21 22:38:06,henry,Network packet received from internal host,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-03-26 00:29:55,emma,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-18 06:01:50,carol,Session started on workstation WS-95,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-04 23:25:46,henry,Failed login from internal workstation,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-03-14 23:12:25,frank,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-06-01 03:35:06,grace,Connection from workstation to internal service,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-04-16 07:17:23,liam,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-29 02:18:16,david,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-10 05:25:23,alice,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-15 13:31:15,isabel,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-12-13 10:46:44,admin,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-01-23 11:27:00,svc_monitor,Service ping received from internal node,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-12-10 12:53:16,svc_monitor,API health check passed: response time 108ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-05 05:43:56,nathan,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-30 03:25:11,alice,Malicious login attempt from external source,91.108.4.200,False,2,True,True,4,1.0,HIGH
+2025-05-08 13:28:04,root,Unauthorized admin access from external node,52.86.16.25,True,1,True,True,4,1.0,HIGH
+2025-06-01 11:44:23,mary,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-01 11:44:54,henry,Session started on workstation WS-74,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-27 10:44:15,henry,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-03-23 11:21:20,emma,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-06-20 15:49:54,svc_monitor,API health check passed: response time 24ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-08 03:00:30,alice,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-04-28 02:52:32,admin,Admin session attempted from external address: denied,104.21.14.101,True,1,True,True,3,0.75,HIGH
+2025-10-17 22:09:21,emma,Connection from workstation to internal service,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-02-10 18:06:15,grace,Suspicious attack detected from external host,203.0.113.99,False,2,True,True,4,1.0,HIGH
+2025-12-27 06:26:00,nathan,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-16 02:10:28,alice,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-11-19 07:14:22,emma,Login attempt from internal machine,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-08-05 13:52:28,svc_deploy,Log rotation completed: archived 91 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-22 18:25:24,frank,Suspicious traffic noted from internal device,10.20.30.40,False,1,True,False,2,0.5,MEDIUM
+2025-11-30 11:08:09,david,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-29 12:43:04,grace,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-27 17:47:06,bob,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-10-10 11:22:59,karen,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-26 21:05:34,frank,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-25 06:48:41,bob,Unauthorized breach attempt from external address,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-07-25 18:26:28,henry,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-18 05:16:49,frank,Access granted to project folder: /dev/sprint-12/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-11 19:50:14,svc_monitor,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-02 15:40:54,isabel,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-09-08 08:29:48,liam,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-25 19:11:00,emma,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-10 07:24:32,alice,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-12 00:18:41,grace,Unauthorized breach attempt from external address,194.165.16.11,False,2,True,True,4,1.0,HIGH
+2025-05-10 21:30:27,liam,Connection refused to service on port 8080,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-19 01:14:49,bob,Report exported: sales_data_19.csv,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-20 03:22:01,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-05 00:43:56,admin,Root session failed from external IP: flagged by IDS,45.33.32.156,True,0,True,True,3,0.75,HIGH
+2025-06-15 17:32:26,henry,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-12-01 05:58:41,isabel,Attempt to read root access logs by standard user,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-07-30 06:24:14,karen,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-04-29 04:50:04,bob,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-03-25 13:33:05,carol,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-10-11 16:28:15,henry,Suspicious traffic noted from internal device,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-04-02 18:37:13,svc_db,Service ping received from internal node,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-06-04 04:40:57,karen,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-07 16:46:22,karen,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-07 12:24:35,frank,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-04-20 12:19:59,frank,Attack signature matched on traffic from external host,104.21.14.101,False,1,True,True,3,0.75,HIGH
+2025-06-04 03:46:38,james,Unauthorized breach attempt from external address,91.108.4.200,False,2,True,True,4,1.0,HIGH
+2025-06-11 14:50:17,karen,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-10-02 21:59:45,henry,Document created: project_plan_15.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-04 10:03:30,mary,Unauthorized breach attempt from external address,104.21.14.101,False,2,True,True,4,1.0,HIGH
+2025-09-03 22:14:51,root,Admin escalation attempt: failed and logged as suspicious,0.0.0.0,True,2,False,False,3,0.75,HIGH
+2025-05-16 02:15:48,nathan,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-06-10 21:17:39,carol,Malicious packet received from external address,46.101.60.130,False,1,True,True,3,0.75,HIGH
+2025-06-08 11:18:08,bob,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-10-29 08:42:16,emma,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-08-23 19:06:56,henry,Suspicious traffic from external source,46.101.60.130,False,1,True,True,3,0.75,HIGH
+2025-04-08 02:47:45,admin,Admin session attempted from external address: denied,31.13.64.35,True,1,True,True,3,0.75,HIGH
+2025-08-22 01:35:17,carol,Suspicious attack detected from external host,31.13.64.35,False,2,True,True,4,1.0,HIGH
+2025-09-05 19:55:59,root,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-03-19 13:11:08,alice,Software update installed: patch KB81744,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-25 15:25:44,karen,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-06-23 04:21:41,bob,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-30 07:57:29,isabel,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-06 06:16:25,mary,Network packet received from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-11-14 11:29:01,root,Admin session attempted from external address: denied,185.220.101.45,True,1,True,True,3,0.75,HIGH
+2025-03-11 15:16:13,henry,Access granted to project folder: /dev/sprint-4/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-16 08:27:37,liam,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-17 11:58:17,admin,Unauthorized admin access from external node,185.220.101.45,True,1,True,True,4,1.0,HIGH
+2025-02-09 17:29:33,svc_backup,Service ping received from internal node,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-03-14 18:07:29,nathan,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-24 01:57:28,svc_monitor,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-01 13:43:46,emma,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-22 06:47:13,svc_db,API health check passed: response time 39ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-08 10:29:54,svc_monitor,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-02-22 15:00:32,svc_deploy,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-02 05:00:14,grace,Attack signature matched on traffic from external host,198.51.100.22,False,1,True,True,3,0.75,HIGH
+2025-01-12 12:35:37,carol,Network packet received from internal host,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-08-30 02:53:40,admin,Unauthorized admin access from external node,172.99.10.44,True,1,True,True,4,1.0,HIGH
+2025-09-30 14:31:16,karen,Suspicious attack detected from external host,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-10-14 16:21:32,grace,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-12-25 08:15:05,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-28 23:10:24,frank,New device registered: laptop-143,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-23 21:08:27,alice,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-07-11 00:34:23,carol,Remote desktop session from internal host,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-01-25 23:36:18,carol,Zoom meeting joined from desktop client,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-31 00:58:31,henry,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-15 19:42:44,carol,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-25 18:54:34,liam,Printer job submitted: invoice_377.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-21 02:29:51,admin,Escalation to root attempted from external host,104.21.14.101,True,1,True,True,4,1.0,HIGH
+2025-03-02 04:21:31,mary,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-06 02:49:47,david,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-17 15:36:02,admin,Escalation to root attempted from external host,31.13.64.35,True,1,True,True,4,1.0,HIGH
+2025-01-12 10:13:41,karen,Document created: project_plan_45.docx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-30 11:45:21,henry,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-04 02:43:04,liam,Printer job submitted: invoice_196.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-26 18:58:38,james,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-26 19:21:37,alice,Denied request from internal host,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-12-04 11:32:13,bob,Password changed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-15 18:31:17,svc_backup,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-04-20 10:46:08,liam,Failed login: account temporarily locked out,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-12 19:10:56,isabel,Login attempt recorded from workstation WS-42,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-26 09:36:19,henry,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-04 14:16:24,alice,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-24 04:10:44,karen,HR portal accessed: payslip viewed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-15 09:48:15,henry,Denied connection from external node,172.99.10.44,False,1,True,True,3,0.75,HIGH
+2025-01-18 06:51:05,mary,Attack pattern: multiple failed attempts from external host,172.99.10.44,False,2,True,True,4,1.0,HIGH
+2025-03-25 04:21:03,carol,File uploaded to shared drive: presentation_9.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-02 16:32:57,svc_deploy,Log rotation completed: archived 120 files,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-14 23:19:40,carol,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-01-01 20:16:54,alice,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-13 23:14:31,carol,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-03-10 06:58:34,svc_backup,Monitoring agent heartbeat received,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-05 10:02:01,svc_db,Scheduled backup completed successfully at 02:00,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-03 09:09:44,svc_deploy,Service ping received from internal node,10.20.30.40,False,0,True,False,1,0.25,MEDIUM
+2025-07-27 21:17:16,mary,Login attempt denied due to expired credentials,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-05-06 05:57:36,bob,Connection from workstation to internal service,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-03-12 23:26:13,nathan,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-06-12 08:47:11,james,Suspicious traffic from external source,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-10-15 21:08:56,svc_api,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-07-16 05:50:21,frank,Multiple failed password attempts on user portal,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-05-13 18:42:27,grace,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-09-16 00:22:50,david,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-08 19:33:38,liam,Network packet received from internal host,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-03-19 01:16:31,svc_backup,Service ping received from internal node,192.168.1.10,False,0,True,False,1,0.25,MEDIUM
+2025-02-13 01:31:06,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-11-29 17:17:24,emma,Malicious breach attempt: unauthorized sudo usage flagged,0.0.0.0,False,4,False,False,4,1.0,HIGH
+2025-12-30 23:30:28,david,User executed sudo command: apt-get update,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-09-18 04:53:22,carol,Failed login attempt on web portal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-03-12 13:21:27,mary,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-26 11:58:12,frank,File transfer initiated from internal machine,10.10.1.100,False,0,True,False,1,0.25,MEDIUM
+2025-04-17 23:01:10,carol,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-18 23:35:47,mary,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-21 06:51:41,liam,Suspicious traffic noted from internal device,192.168.2.200,False,1,True,False,2,0.5,MEDIUM
+2025-07-14 04:55:19,root,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-10-13 14:48:48,henry,Failed login from internal workstation,10.10.1.100,False,1,True,False,2,0.5,MEDIUM
+2025-11-07 06:02:52,henry,Session started on workstation WS-66,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-09 14:49:30,henry,Access denied to folder /admin/config/,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-11-23 00:39:05,james,Accessed shared folder: /finance/reports/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-07 17:01:19,david,"Multiple failed login attempts: suspicious attack pattern, connection denied",0.0.0.0,False,6,False,False,6,1.0,HIGH
+2025-05-24 10:48:01,admin,Root access denied: unauthorized action flagged,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-08-11 10:40:26,james,Suspicious login attempt detected from shared terminal,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-02-24 23:11:25,david,Login attempt from internal machine,192.168.1.10,False,1,True,False,2,0.5,MEDIUM
+2025-06-13 21:21:16,svc_deploy,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-10 20:24:45,svc_monitor,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-30 10:48:07,svc_monitor,Connection refused from internal node,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-06-11 14:49:17,svc_backup,API health check passed: response time 102ms,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-12 21:23:51,henry,File uploaded to shared drive: presentation_20.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-10 08:39:02,root,Root failed to authenticate from external host,46.101.60.130,True,0,True,True,3,0.75,HIGH
+2025-06-23 03:46:33,liam,User profile updated: display name changed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-23 03:25:46,david,Network packet received from internal host,127.0.0.1,False,0,True,False,1,0.25,MEDIUM
+2025-08-03 14:34:03,james,Malicious attack flagged: unauthorized system access attempt,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-01-08 02:40:59,svc_deploy,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-29 20:48:37,svc_db,Database replication completed successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-16 04:12:27,root,Privilege escalation via sudo from external node,91.108.4.200,True,3,True,True,6,1.0,HIGH
+2025-11-20 16:15:52,root,Root failed to authenticate from external host,52.86.16.25,True,0,True,True,3,0.75,HIGH
+2025-05-05 09:10:19,mary,File transfer initiated from internal machine,192.168.2.200,False,0,True,False,1,0.25,MEDIUM
+2025-11-13 11:12:23,root,Unauthorized admin access from external node,198.51.100.22,True,1,True,True,4,1.0,HIGH
+2025-01-22 23:53:19,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-06-06 10:45:24,frank,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-10 12:25:35,frank,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-04 22:01:53,mary,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-06-27 13:41:28,karen,Login attempt recorded from workstation WS-72,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-14 02:06:20,bob,Privilege escalation attempt blocked by policy,0.0.0.0,False,2,False,False,2,0.5,MEDIUM
+2025-01-13 14:13:02,grace,Meeting calendar invite accepted,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-09 21:28:36,grace,Login attempt recorded from workstation WS-69,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-01-31 00:39:50,david,Access granted to project folder: /dev/sprint-10/,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-04-26 21:41:09,frank,Attack pattern: multiple failed attempts from external host,46.101.60.130,False,2,True,True,4,1.0,HIGH
+2025-09-18 01:25:53,alice,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-03-24 00:45:03,emma,Remote desktop session from internal host,192.168.1.25,False,0,True,False,1,0.25,MEDIUM
+2025-06-11 13:21:00,root,Admin session attempted from external address: denied,31.13.64.35,True,1,True,True,3,0.75,HIGH
+2025-02-14 13:10:09,mary,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-01-13 23:37:06,liam,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-12-07 20:30:33,henry,Unauthorized access attempt from external host,172.99.10.44,False,1,True,True,3,0.75,HIGH
+2025-10-04 16:18:29,emma,File downloaded: /reports/q3_summary.pdf,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-05-15 03:59:16,karen,VPN session established successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-13 02:24:47,james,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-25 03:27:58,henry,User logged in successfully,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-10-10 00:57:46,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-02-14 06:14:48,karen,Login attempt recorded from workstation WS-30,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-29 08:23:51,alice,User read notification: system maintenance scheduled,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-01 07:38:49,mary,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-08-28 19:24:00,admin,Escalation to root attempted from external host,194.165.16.11,True,1,True,True,4,1.0,HIGH
+2025-10-10 19:26:19,nathan,IDS note: possible attack pattern on SSH port,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-12-03 04:45:57,grace,File uploaded to shared drive: presentation_26.pptx,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-02 04:34:22,admin,Escalation to root attempted from external host,203.0.113.99,True,1,True,True,4,1.0,HIGH
+2025-08-29 14:49:55,root,Unauthorized admin access from external node,185.220.101.45,True,1,True,True,4,1.0,HIGH
+2025-07-03 23:17:51,admin,Root failed to authenticate from external host,172.99.10.44,True,0,True,True,3,0.75,HIGH
+2025-05-19 15:01:45,liam,Attack pattern: multiple failed attempts from external host,198.51.100.22,False,2,True,True,4,1.0,HIGH
+2025-05-18 19:56:17,karen,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-11 12:22:32,root,Root failed to authenticate from external host,46.101.60.130,True,0,True,True,3,0.75,HIGH
+2025-05-13 12:12:53,david,Remote desktop session from internal host,10.0.0.12,False,0,True,False,1,0.25,MEDIUM
+2025-01-21 03:50:00,karen,Denied request from internal host,192.168.0.55,False,1,True,False,2,0.5,MEDIUM
+2025-12-27 21:41:24,liam,Email sent via internal mail server,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-06-03 18:58:53,root,Root session failed from external IP: flagged by IDS,185.220.101.45,True,0,True,True,3,0.75,HIGH
+2025-12-28 01:38:00,karen,Browser session opened on workstation,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-11-30 13:04:36,root,Escalation to root attempted from external host,46.101.60.130,True,1,True,True,4,1.0,HIGH
+2025-04-17 09:59:43,bob,User completed compliance training module,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-18 13:57:55,liam,Suspicious traffic from external source,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-07-27 09:38:19,mary,Attack signature matched on traffic from external host,52.86.16.25,False,1,True,True,3,0.75,HIGH
+2025-02-14 00:16:37,frank,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-02-10 21:00:11,grace,New device registered: laptop-657,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-26 14:47:01,svc_api,Connection refused from internal node,127.0.0.1,False,1,True,False,2,0.5,MEDIUM
+2025-05-12 23:41:35,svc_backup,SSL certificate auto-renewed for internal domain,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-09-18 02:48:34,nathan,Request denied: user not in authorised group,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-03-26 17:28:44,carol,Two-factor authentication setup completed,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-08-08 03:34:21,liam,Suspicious file type detected in upload folder,0.0.0.0,False,1,False,False,1,0.25,MEDIUM
+2025-04-24 12:03:11,mary,Unauthorized access attempt from external host,185.220.101.45,False,1,True,True,3,0.75,HIGH
+2025-09-15 05:08:56,emma,Suspicious breach: escalation attempt logged and blocked,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-02-20 04:18:33,liam,User logged out after 7 minutes,0.0.0.0,False,0,False,False,0,0.0,LOW
+2025-02-01 20:32:49,grace,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-03-03 18:07:08,liam,Breach detected: malicious payload in sudo execution,0.0.0.0,False,3,False,False,3,0.75,HIGH
+2025-11-25 13:23:45,grace,File transfer initiated from internal machine,192.168.0.55,False,0,True,False,1,0.25,MEDIUM
+2025-03-30 13:23:34,frank,Suspicious unauthorized attack: escalation denied by firewall,0.0.0.0,False,5,False,False,5,1.0,HIGH
+2025-03-15 01:13:13,root,Root failed to authenticate from external host,194.165.16.11,True,0,True,True,3,0.75,HIGH
+2025-08-30 19:44:50,admin,Unauthorized failed login attempt on privileged session,0.0.0.0,True,3,False,False,4,1.0,HIGH
+2025-04-11 16:23:38,admin,Admin session attempted from external address: denied,104.21.14.101,True,1,True,True,3,0.75,HIGH
