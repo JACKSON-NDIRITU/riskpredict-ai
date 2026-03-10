@@ -1,6 +1,8 @@
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+from app.auth import verify_api_key
+from fastapi import Depends
 from fastapi import APIRouter
 from app.schemas import EmailInput, URLInput, LogInput
 from detectors.phishing_detector import analyze_email
@@ -15,7 +17,7 @@ router = APIRouter(prefix="/ingest")
 
 RISK_TO_SCORE = {"LOW": 0.0, "MEDIUM": 0.5, "HIGH": 0.9}
 
-@router.post("/email")
+@router.post("/email", dependencies=[Depends(verify_api_key)])
 def ingest_email(email: EmailInput):
     rule_score = analyze_email(email)
     hybrid = analyze_email_hybrid(
@@ -31,7 +33,7 @@ def ingest_email(email: EmailInput):
     risk = aggregate_risk(rule_score)
     return {"type": "email", "risk_score": risk, "details": rule_score}
 
-@router.post("/url")
+@router.post("/url", dependencies=[Depends(verify_api_key)])
 def ingest_url(url: URLInput):
     rule_score = analyze_url(url)
     hybrid = analyze_url_hybrid(url=url.url)
@@ -43,7 +45,7 @@ def ingest_url(url: URLInput):
     risk = aggregate_risk(rule_score)
     return {"type": "url", "risk_score": risk, "details": rule_score}
 
-@router.post("/log")
+@router.post("/log", dependencies=[Depends(verify_api_key)])
 def ingest_log(log: LogInput):
     rule_score = analyze_log(log)
     hybrid = analyze_log_hybrid(

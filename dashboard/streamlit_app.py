@@ -14,6 +14,8 @@ st.set_page_config(
 )
 
 API_BASE = "http://127.0.0.1:8000/ingest"
+API_KEY  = "riskpredict-secret-2026"
+HEADERS  = {"X-API-Key": API_KEY}
 
 # Risk visualization mapping
 RISK_STYLES = {
@@ -85,7 +87,7 @@ def run_analysis(endpoint: str, data: dict, success_msg: str, loading_msg: str):
 
     with st.spinner(loading_msg):
         try:
-            r = requests.post(f"{API_BASE}/{endpoint}", json=data, timeout=12)
+            r = requests.post(f"{API_BASE}/{endpoint}", json=data, headers=HEADERS, timeout=60)
             r.raise_for_status()
             result = r.json()
 
